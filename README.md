@@ -1,7 +1,5 @@
 # Franken-Planck
 
-> TODO: Move shift keys and rename files. Dog walking priority.
-
 Franken-Planck is my evolving 14 layer custom keymap for a 47 key Rev 6. Planck Keyboard. 
 Ideas from others were assimilated in Borg like fashion. Resistance is futile, I am a Cyclon |)
 
