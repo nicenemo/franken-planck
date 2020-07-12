@@ -1,4 +1,4 @@
-# nicenemo-planck
+# Franken-planck
 
 Custom QMK keyboard layout for a Planck Keyboard with 11 layers.
 
