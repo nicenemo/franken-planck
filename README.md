@@ -3,7 +3,7 @@
 Franken-Planck is my evolving 14 layer custom keymap for a 47 key Rev 6. Planck Keyboard. 
 Ideas from others were assimilated in Borg like fashion. Resistance is futile, I am a Cyclon |)
 
-The Francken-Planck Layout firmwate was created with the online [QMK Configurator](https://config.qmk.fm).
+The Francken-Planck Layout firmware was created with the online [QMK Configurator](https://config.qmk.fm).
 It is just a JSON file that can be turned into C code and baked into firmware. Either using QMK's online tooling or locally  with the [QMK CLI tools](https://docs.qmk.fm/#/cli).
 
 My workflow is as follows:
