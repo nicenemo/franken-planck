@@ -1,0 +1,4 @@
+SRC += muse.c
+RGBLIGHT_ENABLE = yes
+BACKLIGHT_ENABLE = yes
+MIDI_ENABLE = yes
