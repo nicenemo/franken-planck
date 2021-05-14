@@ -18,7 +18,6 @@ My workflow is as follows:
 8. Flash the firmware to my keyboard using _qmk flash_
 9. Commit made changes to this repository
 
-The include frankenplank.pdf is a printable layout of the current version.
 
 ## Own ideas
 
