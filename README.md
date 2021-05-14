@@ -41,5 +41,5 @@ _Please if you think I got it from you or anybody else, let me know and I will a
 * Vim layer [MacinPlanck](https://macintacos.github.io/macinplanck-configuration). I am still looking into this, since this is MAC specific, and I am using Windows and Linux.
 * Making arrow keys available [Noah Fredricl's Planck](https://noahfrederick.com/log/the-planck-keyboard)
   _Sadly this custom layout with some extra coding for macros does not work for a Rev6_ I think I got close with using just the JSON file.
-* Raise space does backspace and  Lower space does delete. _Not sure who I stole that one from _
+* Raise space does backspace and  Lower space does delete. _Not sure who I stole that one from_
 
