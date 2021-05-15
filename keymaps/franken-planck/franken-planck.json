@@ -99,7 +99,7 @@
       "LSFT_T(KC_END)",
       "LT(3,KC_DEL)",
       "LT(9,KC_SPC)",
-      "KC_RSFT",
+      "KC_SFTENT",
       "LT(4,KC_BSPC)",
       "KC_LEFT",
       "KC_DOWN",
