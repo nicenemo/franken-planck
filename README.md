@@ -78,4 +78,6 @@ Although I am still considering a Corne or something with slightly more keys tha
 Since I do not plan on soldering it myself having a shop do this for me is also challenging. All known shops in the Netherlands, UK, US or Hongkong currently do not offer soldering services.(May 2021).
 This gives me some time to move to the NEO2 layout, become a better typist and consider my options. How many keys?
 
+## keymap layers
 
+![keymaps](franken-planck.png)
