@@ -23,7 +23,7 @@
       "LGUI_T(KC_A)",
       "LALT_T(KC_S)",
       "LCTL_T(KC_D)",
-      "LSFT(KC_F)",
+      "LSFT_T(KC_F)",
       "KC_G",
       "KC_H",
       "RSFT_T(KC_J)",
