@@ -80,4 +80,4 @@ This gives me some time to move to the NEO2 layout, become a better typist and c
 
 ## keymap layers
 
-![keymaps](franken-planck.png)
+[keymap layers pdf](franken-planck.pdf)
