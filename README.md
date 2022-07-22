@@ -11,7 +11,7 @@ Ideas from others were assimilated in Borg like fashion. _Resistance is futile, 
 6. media key layer
 7. start calculator and other apps layer
 8. NEO2 layer
-9. Hyper key on ESC
+9. Hyper key on hold ESC
 
 The Franken-Planck Layout firmware was created with the online [QMK Configurator](https://config.qmk.fm).
 It is just a JSON file that can be turned into C code and baked into firmware. Either using QMK's online tooling or locally  with the [QMK CLI tools](https://docs.qmk.fm/#/cli).
