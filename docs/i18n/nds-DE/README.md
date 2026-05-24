@@ -54,7 +54,6 @@ Wieldat disse Repository buten de normole QMK-Ordnerstruktuur liggt, musst du de
 
 Fehr dissen Befehl in den Root-Ordner van düt Projekt ut:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Firmware buen
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Bruuk de Standard-Kompileerbefehlen. QMK finnt un parst de .json-Dateinen automaatsch, üm de Binärdateinen to maken:
 
 # Franken-Planck buen
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Angela ehr Planck buen
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Macro-Pad buen
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

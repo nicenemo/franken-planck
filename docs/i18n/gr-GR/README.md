@@ -54,7 +54,6 @@
 
 Εκτελέστε την ακόλουθη εντολή στον ριζικό κατάλογο αυτού του έργου:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Κατασκευή του Firmware
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Χρησιμοποιήστε τις τυπικές εντολές μεταγλώττισης. Το QMK θα εντοπίσει και θα αναλύσει αυτόματα τα αρχεία .json για να δημιουργήσει τα εκτελέσιμα αρχεία:
 
 # Κατασκευή Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Κατασκευή Angela's Planck
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Κατασκευή Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

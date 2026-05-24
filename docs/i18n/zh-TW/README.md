@@ -54,7 +54,6 @@
 
 請在此專案的根目錄下執行以下指令：
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. 建置韌體 (Building the Firmware)
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 使用標準的 QMK 編譯指令。QMK 會自動偵測並解析 .json 檔案来產生二進位韌體：
 
 # 建置 Franken-Planck 佈局
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # 建置 Angela 的 Planck 佈局
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # 建置 巨集按鍵墊（Macropad）
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

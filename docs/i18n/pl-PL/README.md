@@ -54,7 +54,6 @@ Ponieważ to repozytorium znajduje się poza standardową strukturą katalogów 
 
 Uruchom następujące polecenie w katalogu głównym tego projektu:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Budowanie oprogramowania układowego (Building the Firmware)
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Użyj standardowych poleceń kompilacji. QMK automatycznie wykryje i sparsuje pliki .json w celu wygenerowania plików binarnych:
 
 # Budowanie Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Budowanie Planck Angeli
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Budowanie Macropada
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

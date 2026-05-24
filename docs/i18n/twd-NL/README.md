@@ -54,7 +54,6 @@ Umdat disse repository buten de standaard QMK-mappenstructuur steet, mu'j de CLI
 
 Voer dit commando ut in de hoofdmap van dit project:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Firmware bouwen
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Gebroek de standaard compileer-opdrachten. QMK pakt automatisch de .json-bestanden op om de firmware te genereren:
 
 # Bouw Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Bouw Angela's Planck
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Bouw Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

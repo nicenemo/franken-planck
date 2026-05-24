@@ -54,7 +54,6 @@ Poiché questo repository si trova al di fuori della struttura standard delle di
 
 Esegui il seguente comando all'interno della directory radice di questo progetto:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Compilazione del Firmware
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Utilizza i comandi di compilazione standard. QMK rileverà e analizzerà automaticamente i file .json per generare i file binari:
 
 # Compila Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Compila la Planck di Angela
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Compila il Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

@@ -54,7 +54,6 @@
 
 Виконайте наступну команду в кореневому каталозі цього проєкту:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Збирання прошивки (Building the Firmware)
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Використовуйте стандартні команди компіляції. QMK автоматично виявить і проаналізує файли .json для генерації бінарних файлів:
 
 # Зібрати Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Зібрати розкладку Planck для Анжели
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Зібрати макропад (Macropad)
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

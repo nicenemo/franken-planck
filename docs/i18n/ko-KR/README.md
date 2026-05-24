@@ -54,7 +54,6 @@
 
 이 프로젝트의 루트 디렉토리에서 다음 명령어를 실행합니다.
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. 펌웨어 빌드 (Building the Firmware)
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 표준 컴파일 명령어를 사용합니다. QMK는 자동으로 .json 파일을 감지하고 분석하여 바이너리 파일을 생성합니다.
 
 # Franken-Planck 빌드
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Angela용 Planck 빌드
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # 매크로 패드 빌드
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

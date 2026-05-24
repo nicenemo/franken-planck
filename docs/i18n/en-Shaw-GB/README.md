@@ -54,7 +54,6 @@
 
 𐑦𐑜𐑟𐑦𐑨𐑿𐑑 𐑞 𐑓𐑪𐑤𐑴𐑦𐑯 𐑨𐑩𐑥𐑨𐑯𐑛 𐑢𐑦𐑞𐑦𐑯 𐑞 𐑮𐑿𐑑 𐑛𐑦𐑮𐑦𐑨𐑑𐑩𐑮𐑦 𐑪𐑓 𐑓𐑦𐑕 𐑐𐑮𐑴𐑡𐑦𐑨𐑑:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Building the Firmware
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 𐑿𐑑𐑦𐑤𐑲𐑟 𐑞 𐑕𐑑𐑮𐑳𐑨𐑑𐑿𐑮 𐑨𐑩𐑥𐑐𐑲𐑤𐑱𐑿𐑯 𐑨𐑩𐑥𐑨𐑯𐑛𐑟. QMK 𐑢𐑦𐑤 𐑷𐑴𐑑𐑴𐑥𐑨𐑑𐑦𐑨𐑩𐑤𐑦 𐑛𐑦𐑑𐑦𐑨𐑑 𐑨𐑯𐑛 𐑐𐑷𐑮𐑕 𐑞 .json 𐑓𐑲𐑤𐑟 𐑑𐑪 𐑜𐑦𐑯𐑩𐑮𐑱𐑑 𐑞 𐑚𐑲𐑯𐑩𐑮𐑦𐑟:
 
 # Build Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Build Angela's Planck
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Build Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

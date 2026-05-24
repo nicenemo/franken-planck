@@ -54,7 +54,6 @@ Ce dépôt résidant en dehors de la structure de répertoires standard de QMK, 
 
 Exécutez la commande suivante à la racine de ce projet :
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Build du Firmware
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Utilisez les commandes de compilation standards. QMK détectera et analysera automatiquement les fichiers .json pour générer les binaires :
 
 # Compiler le layout Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Compiler le layout d'Angela (Planck)
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Compiler le layout du Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

@@ -54,7 +54,6 @@ Siden dette arkivet ligger utenfor den standard QMK-mappestrukturen, må du eksp
 
 Kjør denne kommandoen i rotmappen til dette prosjektet:
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. Bygge Firmware
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 Bruk de standard kompileringskommandoene. QMK vil automatisk fange opp og tolke .json-filene for å generere binærfilene:
 
 # Bygg Franken-Planck
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Bygg Angela's Planck
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # Bygg Macropad
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---

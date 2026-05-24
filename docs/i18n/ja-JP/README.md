@@ -54,7 +54,6 @@
 
 このプロジェクトのルートディレクトリで、以下のコマンドを実行します：
 
-qmk config user.overlay_dir="$(realpath .)"
 
 
 ### 2. ファームウェアのビルド (Building the Firmware)
@@ -62,13 +61,13 @@ qmk config user.overlay_dir="$(realpath .)"
 標準のコンパイルコマンドを使用します。QMKは自動的に .json ファイルを検出・解析し、バイナリファイルを生成します：
 
 # Franken-Planckのビルド
-qmk compile -kb planck/rev6 -km franken-planck
+qmk compile keyboards/planck/rev6/keymaps/franken-planck/franken-planck.json
 
 # Angela用Planckのビルド
-qmk compile -kb planck/rev6 -km angelas-franken-planck
+qmk compile keyboards/planck/rev6/keymaps/angelas-franken-planck/angelas-franken-planck.json
 
 # マクロパッドのビルド
-qmk compile -kb planck/rev6 -km macropad-angela
+qmk compile keyboards/planck/rev6/keymaps/macropad-angela/keymap.json
 
 
 ---
